@@ -20,7 +20,7 @@ def flight(request, flight_id):
         "passengers":passengers,
         "non_passengers": non_passengers
         })
-    
+
 def book(request, flight_id):
      if request.method == "POST":
 
